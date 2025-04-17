@@ -1,0 +1,23 @@
+title: Ayush Portfolio
+description: Personal website showcasing my research, publications, and writing
+url: https://yourusername.github.io/ayush-portfolio
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site navigation
+header_pages:
+  - index.md
+  - resume.md
+  - publications.md
+  - blog.md
+
+# Social media
+social_links:
+  github: yourusername
+  linkedin: your-linkedin
+  twitter: your-twitter
+
+# Build settings
+markdown: kramdown 
