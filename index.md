@@ -29,18 +29,8 @@ Developing deep generative models—including diffusion and flow-matching archit
 ### Physics-Informed Techniques for Materials Informatics  
 Incorporating physical priors, graph representations, and empirical equations into ML pipelines to improve model interpretability and scientific reliability.
 
----
-
-## Connect With Me
-
-- [Publications](/publications)
-<!-- - [Resume](/resume) -->
-<!-- [Blog](/blog) -->
-
-You can also connect on [LinkedIn](https://www.linkedin.com/in/j-ayush) or email me at [ayush.jain@gatech.edu](mailto:ayush.jain@gatech.edu).
+To learn more view my [Publications](/publications).
 
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  <em>Let’s build the future of materials design with machine learning.</em>
-</div>
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/j-ayush) or email me at [ayush.jain@gatech.edu](mailto:ayush.jain@gatech.edu).
