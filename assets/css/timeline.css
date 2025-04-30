@@ -1,0 +1,129 @@
+/* Timeline styles */
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
+  background: #3498db;
+}
+
+.timeline li {
+  padding: 1em 0;
+  position: relative;
+}
+
+.timeline li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.direction-l,
+.direction-r {
+  position: relative;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.direction-l {
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.direction-r {
+  float: right;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.flag {
+  position: relative;
+  display: inline-block;
+  padding: 6px 10px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #333;
+  border-left: 3px solid #3498db;
+}
+
+.time-wrapper {
+  display: inline-block;
+  margin-top: 5px;
+  color: #777;
+}
+
+.time {
+  display: inline-block;
+  padding: 4px 6px;
+  background: #f8f8f8;
+  border-radius: 3px;
+}
+
+.desc {
+  padding: 10px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Dots on the timeline */
+.direction-l .flag-wrapper:before,
+.direction-r .flag-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -43px;
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  background: #fff;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.direction-r .flag-wrapper:before {
+  left: -43px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .timeline:before {
+    left: 20px;
+  }
+  
+  .direction-l,
+  .direction-r {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 0;
+  }
+  
+  .direction-l .flag-wrapper:before,
+  .direction-r .flag-wrapper:before {
+    left: -33px;
+    right: auto;
+  }
+} 

@@ -4,58 +4,52 @@ title: Resume
 permalink: /resume/
 ---
 
-# Resume
+<link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
 
-## Education
+# Curriculum Vitae
 
-**University Name**  
-*Degree, Field of Study*  
-Graduation Year  
-- Notable achievements or projects
-- GPA if applicable
-- Relevant coursework
+<div class="cv-section">
+  <p><a href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank">Download Full CV (PDF)</a></p>
 
-**Previous Education**  
-*Degree, Field of Study*  
-Graduation Year  
+  <h2>Experience Timeline</h2>
 
-## Work Experience
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      <div class="direction-{% cycle 'l', 'r' %}">
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc">
+          <b>{{ exp.title }}</b> <br/>
+          <i>{{ exp.location }}</i> <br/>
+          {{ exp.subtitle }}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
-**Company/Organization Name**  
-*Your Position*  
-Date Range  
-- Key responsibility or achievement
-- Key responsibility or achievement
-- Key responsibility or achievement
+  <h2>Education</h2>
 
-**Previous Company/Organization**  
-*Your Position*  
-Date Range  
-- Key responsibility or achievement
-- Key responsibility or achievement
-
-## Skills
-
-### Technical Skills
-- Skill 1
-- Skill 2
-- Skill 3
-
-### Soft Skills
-- Skill 1
-- Skill 2
-- Skill 3
-
-## Certifications & Awards
-- Certification/Award 1
-- Certification/Award 2
-
-## Projects
-- **Project Name**: Brief description
-- **Project Name**: Brief description
-
-## Professional Affiliations
-- Organization 1
-- Organization 2
-
-[Download PDF version of my resume](/assets/resume.pdf) 
+  <!-- Education Timeline -->
+  <ul class="timeline">
+    {% for edu in site.data.education.education %}
+    <li>
+      <div class="direction-{% cycle 'l', 'r' %}">
+        <div class="flag-wrapper">
+          <span class="flag">{{ edu.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ edu.time }}</span></span>
+        </div>
+        <div class="desc">
+          <b>{{ edu.title }}</b> <br/>
+          <i>{{ edu.location }}</i> <br/>
+          {{ edu.subtitle }}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div> 

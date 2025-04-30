@@ -1,0 +1,14 @@
+education:
+  - place: "Georgia Institute of Technology"
+    title: "Ph.D. in Materials Science and Engineering"
+    subtitle: "Focus on machine learning for materials discovery and 3D printing"
+    time: "2021 - Present"
+    location: "Atlanta, GA"
+    category: "education"
+
+  - place: "Cornell University"
+    title: "B.S. in Materials Science and Engineering"
+    subtitle: "Focus on computational materials science"
+    time: "2017 - 2021"
+    location: "Ithaca, NY"
+    category: "education" 
