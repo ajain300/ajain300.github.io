@@ -1,5 +1,6 @@
 ---
 layout: home
+title: ""
 ---
 
 <div style="text-align: center;">
@@ -38,7 +39,10 @@ To learn more view my [Publications](/publications).
 
 ---
 
-Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/j-ayush) or email me at [ayush.jain@gatech.edu](mailto:ayush.jain@gatech.edu).
+<div class="contact-section">
+  <h2>Contact</h2>
+  <p>Feel free to reach out on <a href="https://www.linkedin.com/in/j-ayush" target="_blank">LinkedIn</a> or email me at <a href="mailto:ayush.jain@gatech.edu">ayush.jain@gatech.edu</a>.</p>
+</div>
 
 <style>
   .about-section {
@@ -66,6 +70,36 @@ Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/j-ayush) or ema
   
   .bio-container h2 {
     margin-top: 0;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  .view-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .view-button:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contact-section {
+    background-color: #f8f9fa;
+    padding: 2em;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 2em;
   }
   
   /* Responsive layout - makes it stack on small screens */
