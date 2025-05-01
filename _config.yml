@@ -1,6 +1,6 @@
 title: Ayush Portfolio
 description: Personal website showcasing my research, publications, and writing
-url: https://yourusername.github.io/ayush-portfolio
+url: https://ajain300.github.io/
 theme: minima
 plugins:
   - jekyll-feed
@@ -11,12 +11,12 @@ header_pages:
   - index.md
   - resume.md
   - publications.md
-  - blog.md
+  # - blog.md
 
 # Social media
 social_links:
-  github: yourusername
-  linkedin: your-linkedin
+  github: ajain300
+  linkedin: 
   twitter: your-twitter
 
 # Build settings
