@@ -97,7 +97,7 @@ permalink: /publications/
   <div class="links">
     <a href="https://www.mrs.org/meetings-events/annual-meetings/archive/meeting/presentations/view/2022-mrs-fall-meeting/2022-mrs-fall-meeting-3784477" target="_blank">Oral</a>
   </div>
-  <div class="journal">Materials Research Society, August 2024</div>
+  <div class="journal">Materials Research Society, December 2022</div>
 </div>
 
 <style>
